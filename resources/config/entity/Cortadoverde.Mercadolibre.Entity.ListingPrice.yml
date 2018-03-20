@@ -1,0 +1,19 @@
+Cortadoverde\Mercadolibre\Entity\ListingPrice:
+  exclusion_policy: NONE
+  properties:
+    listing_type_id:
+      type: "string"
+    listing_exposure:
+      type: "string"
+    requires_picture:
+      type: "boolean"
+    currency_id:
+      type: "string"
+    listing_fee_amount:
+      type: "float"
+    sale_fee_amount:
+      type: "float"
+    free_relist:
+      type: "boolean"
+    stop_time:
+      type: "DateTime<'Y-m-d\\TH:i:s.uP'>"

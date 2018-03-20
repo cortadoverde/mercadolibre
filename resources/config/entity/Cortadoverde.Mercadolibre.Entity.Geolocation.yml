@@ -1,0 +1,7 @@
+Cortadoverde\Mercadolibre\Entity\Geolocation:
+  exclusion_policy: NONE
+  properties:
+    latitude:
+      type: "float"
+    longitude:
+      type: "float"

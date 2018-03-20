@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\Rating:
+  exclusion_policy: NONE
+  properties:
+    negative:
+      type: "integer"
+    neutral:
+      type: "integer"
+    positive:
+      type: "integer"

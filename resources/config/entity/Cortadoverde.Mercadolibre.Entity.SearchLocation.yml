@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\SearchLocation:
+  exclusion_policy: NONE
+  properties:
+    city:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"
+    neighborhood:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"
+    state:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"

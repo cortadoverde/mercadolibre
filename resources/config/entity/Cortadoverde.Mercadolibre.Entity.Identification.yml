@@ -1,0 +1,7 @@
+Cortadoverde\Mercadolibre\Entity\Identification:
+  exclusion_policy: NONE
+  properties:
+    number:
+      type: "string"
+    type:
+      type: "string"

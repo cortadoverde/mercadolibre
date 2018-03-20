@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\StatusAction:
+  exclusion_policy: NONE
+  properties:
+    allow:
+      type: "boolean"
+    codes:
+      type: "array"
+    immediate_payment:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\ImmediatePayment"

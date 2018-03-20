@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\CategoryPrediction:
+  exclusion_policy: NONE
+  properties:
+    path_from_root:
+      type: "array<Cortadoverde\\Mercadolibre\\Entity\\CategoryPrediction>"
+    prediction_probability:
+      type: "float"
+    shipping_modes:
+      type: "array"

@@ -1,0 +1,23 @@
+Cortadoverde\Mercadolibre\Entity\SellerAddress:
+  exclusion_policy: NONE
+  properties:
+    id:
+      type: "integer"
+    address_line:
+      type: "string"
+    city:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"
+    comment:
+      type: "string"
+    country:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"
+    latitude:
+      type: "float"
+    longitude:
+      type: "float"
+    search_location:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\SearchLocation"
+    state:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Localization"
+    zip_code:
+      type: "string"

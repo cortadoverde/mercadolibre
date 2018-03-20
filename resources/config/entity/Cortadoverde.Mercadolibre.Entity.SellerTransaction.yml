@@ -1,0 +1,13 @@
+Cortadoverde\Mercadolibre\Entity\SellerTransaction:
+  exclusion_policy: NONE
+  properties:
+    canceled:
+      type: "integer"
+    completed:
+      type: "integer"
+    period:
+      type: "string"
+    ratings:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Rating"
+    total:
+      type: "integer"

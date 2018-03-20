@@ -1,0 +1,15 @@
+Cortadoverde\Mercadolibre\Entity\BuyerTransaction:
+  exclusion_policy: NONE
+  properties:
+    canceled:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Canceled"
+    completed:
+      type: "integer"
+    not_yet_rated:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\NotYetRated"
+    period:
+      type: "string"
+    total:
+      type: "integer"
+    unrated:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Unrated"

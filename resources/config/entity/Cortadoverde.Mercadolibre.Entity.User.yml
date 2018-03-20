@@ -1,0 +1,57 @@
+Cortadoverde\Mercadolibre\Entity\User:
+  exclusion_policy: NONE
+  properties:
+    id:
+      type: "integer"
+    address:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Address"
+    alternative_phone:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Phone"
+    bill_data:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\BillData"
+    buyer_reputation:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\BuyerReputation"
+    country_id:
+      type: "string"
+    company:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Company"
+    context:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Context"
+    credit:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Credit"
+    email:
+      type: "string"
+    first_name:
+      type: "string"
+    identification:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Identification"
+    last_name:
+      type: "string"
+    logo:
+      type: "string"
+    nickname:
+      type: "string"
+    permalink:
+      type: "string"
+    phone:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Phone"
+    points:
+      type: "integer"
+    registration_date:
+      type: "DateTime<'Y-m-d\\TH:i:s.uP'>"
+    secure_email:
+      type: "string"
+    seller_experience:
+      type: "string"
+    seller_reputation:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\SellerReputation"
+    shipping_modes:
+      type: "array"
+    site_id:
+      type: "string"
+    status:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\Status"
+    tags:
+      type: "array"
+    user_type:
+      type: "string"

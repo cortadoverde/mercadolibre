@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\SellerReputation:
+  exclusion_policy: NONE
+  properties:
+    level_id:
+      type: "string"
+    power_seller_status:
+      type: "string"
+    transactions:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\SellerTransaction"

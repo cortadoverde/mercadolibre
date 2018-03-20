@@ -1,0 +1,5 @@
+Cortadoverde\Mercadolibre\Entity\BillData:
+  exclusion_policy: NONE
+  properties:
+    accept_credit_data:
+      type: "string"

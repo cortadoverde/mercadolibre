@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\Category:
+  exclusion_policy: NONE
+  properties:
+    id:
+      type: "string"
+    name:
+      type: "string"
+    path_from_root:
+      type: "array<Cortadoverde\\Mercadolibre\\Entity\\Category>"

@@ -1,0 +1,9 @@
+Cortadoverde\Mercadolibre\Entity\BuyerReputation:
+  exclusion_policy: NONE
+  properties:
+    canceled_transactions:
+      type: "integer"
+    tags:
+      type: "array"
+    transactions:
+      type: "Cortadoverde\\Mercadolibre\\Entity\\BuyerTransaction"
